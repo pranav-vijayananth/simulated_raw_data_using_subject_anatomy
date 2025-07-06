@@ -3,7 +3,8 @@
 As part of my research project, I simulated raw EEG data using subject-specific anatomical head models. The project demonstrates the use of MNE-Python to create realistic synthetic EEG signals by modeling neural activity propagation through a head model, incorporating standard electrode configurations. My goal with this notebook was to generate and analyze simulated EEG data for research purposes and to better study signal characteristics or testing analysis pipelines.
 
 
-## - The notebook constructs a forward model to simulate EEG signals based on a realistic head model derived from subject anatomy. Key steps include:
+## Overview 
+- The notebook constructs a forward model to simulate EEG signals based on a realistic head model derived from subject anatomy. Key steps include:
 - Head Model Creation: Builds a multi-layer head model (scalp, skull, brain) to represent anatomical structures.
 - Electrode Configuration: Places electrodes using the standard 10-20 system for realistic scalp measurements.
 - Source Activity Simulation: Defines neural sources (e.g., dipoles) with specified activity patterns to mimic brain signals.
